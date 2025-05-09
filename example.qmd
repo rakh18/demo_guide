@@ -1,8 +1,11 @@
 ---
 title: "Written Guide Demo"
-author: "Akbar Rakha Syahpradana"
-format: html
-
+subtitle: "You can add subtitle here"
+author: "Akbar Rakha Syahpradana (34096647)"
+format:
+  html:
+    theme: minty
 ---
 
 # This Document is for Demo Purpose Only!
+If you render your document into HTML, the output will be like this.
