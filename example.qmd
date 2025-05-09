@@ -11,4 +11,4 @@ format:
 If you render your document into HTML, the output will be like this.
 
 
-Now, this line will resolve the merge conflict.
+This line will create merge conflict.
