@@ -12,3 +12,21 @@ If you render your document into HTML, the output will be like this.
 
  
 Resolved the merge conflict
+
+## Visualisations
+### Line Chart of Horsepower vs MPG
+
+```{r}
+# Install the package
+install.packages("ggplot2")
+# Call the package
+library(ggplot2)
+
+# Load database, here I use the built-in data from R (mtcars)
+car_df <- mtcars
+
+# Use ggplot to create a line chart
+ggplot(mtcars, aes(x = hp, y = mpg)) +
+  geom_line()
+```
+
